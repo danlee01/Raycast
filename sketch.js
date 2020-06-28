@@ -2,7 +2,7 @@ let walls = [];
 let particle;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1024, 900);
   for (let i = 0; i < 5; i++) {
     let x1 = random(width);
     let x2 = random(width);
